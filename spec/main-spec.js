@@ -18,5 +18,13 @@ describe('main()', () => {
     expect(result).toEqual(expected)
   });
 
+  it('should return 1A3B when guess 1432', function() {
+    let setNum = '1234';
+    let guessNum = '1432';
+    let result = guessNumber(setNum,guessNum);
+    let expected = '1A3B';
+    expect(result).toEqual(expected)
+  });
+
 
 });
